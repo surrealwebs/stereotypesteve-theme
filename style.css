@@ -1,0 +1,62 @@
+/*
+Theme Name: Dyad Child theme for StereotypeSteve
+Theme URI:
+Description: Child theme of dyad
+Author: <a href="http://www.stereotypesteve.com">Steve</a>
+Author URI: http://www.stereotypesteve.com
+Template: dyad
+Version: 1
+*/
+
+.top-thread {
+    display: table-row;
+    /* background-color: rgba(36,38,41,0.8); */
+    /*background-color: rgba(255,0,0,0.8);*/
+
+    height: 20px;
+    padding: 2px 40px;
+    text-align: right;
+    margin: 0;
+    width: 100%;
+    z-index: 9;
+    font-size: 1.4rem;
+    vertical-align: middle;
+    float: none;
+    clear: both;
+}
+
+.top-thread .top-thread-spacer {
+    display: table-cell;
+}
+
+.top-thread .top-social-links {
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0;
+    display: table-cell;
+}
+
+top-thread a,
+.top-thread li,
+.top-thread p {
+    color: #FF0000;
+}
+
+.top-thread ul,
+.top-thread li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-thread ul li {
+    display: inline-block;
+    letter-spacing: 0.1em;
+    margin-left: 1.5em;
+    padding: 6px 0 10px;
+    text-transform: uppercase;
+}
+.top-thread li {
+    position: relative;
+}
+
