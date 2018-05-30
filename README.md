@@ -1,4 +1,4 @@
-Child theme of Dyad by Automattic
+Child theme of [Dyad](https://wordpress.org/themes/dyad/) by Automattic
 
 #Why?
 
