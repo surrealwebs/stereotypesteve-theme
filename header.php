@@ -22,7 +22,7 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'dyad' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">
-		<?php if( ssteve_get_option( 'show_top_thread', false ) ) : ?>
+		<?php if( SSteveUtilities::ssteve_get_option( 'show_top_thread', false ) ) : ?>
 			<div class="top-thread">
 				<div class="top-thread-spacer">&nbsp;</div>
 				<?php if ( has_nav_menu( 'top-social' ) ) : ?>

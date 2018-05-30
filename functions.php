@@ -16,38 +16,11 @@
  */
 
 require_once( realpath( __DIR__ ) . '/inc/class.options-page.php' );
+require_once( realpath( __DIR__ ) . '/inc/class.ssteve-theme.php' );
+require_once( realpath( __DIR__ ) . '/inc/class.ssteve-utilities.php' );
 
-/**
- * Loads parent and child themes' style.css
- */
-function ssteve_enqueue_parent_theme() {
-	$parent_style = 'ssteve_dyad_theme_parent_style';
-	$parent_base_dir = 'dyad';
+SSteveTheme::init();
 
-	wp_enqueue_style( $parent_style,
-		get_template_directory_uri() . '/style.css',
-		array(),
-		wp_get_theme( $parent_base_dir ) ? wp_get_theme( $parent_base_dir )->get('Version') : ''
-	);
+add_action( 'wp_enqueue_scripts', 'SSteveTheme::ssteve_enqueue_parent_theme' );
 
-	wp_enqueue_style( $parent_style . '_child_style',
-		get_stylesheet_directory_uri() . '/style.css',
-		array( $parent_style ),
-		wp_get_theme()->get('Version')
-	);
-}
 
-add_action( 'wp_enqueue_scripts', 'ssteve_enqueue_parent_theme' );
-
-function ssteve_get_option( $option_name, $default = '' ) {
-	$options = get_option( 'ssteve_options', array() );
-
-	if ( empty( $options ) || ! is_array( $options ) || ! isset( $options[ $option_name ] ) ) {
-		return $default;
-	}
-
-	return $options[ $option_name ];
-}
-
-// menus
-register_nav_menus( array( 'top-social' => __( 'Social menu for the top nav bar', 'ssteve' ) ) );
