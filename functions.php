@@ -11,6 +11,6 @@ require_once( realpath( __DIR__ ) . '/inc/class.ssteve-utilities.php' );
 
 SSteveTheme::init();
 
-add_action( 'wp_enqueue_scripts', 'SSteveTheme::ssteve_enqueue_parent_theme' );
+add_action( 'wp_enqueue_scripts', 'SSteveTheme::enqueue_parent_theme' );
 
 

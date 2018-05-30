@@ -20,7 +20,7 @@ class SSteveTheme {
 	/**
 	 * Loads parent and child themes' style.css
 	 */
-	public static function ssteve_enqueue_parent_theme() {
+	public static function enqueue_parent_theme() {
 		$parent_style = 'ssteve_dyad_theme_parent_style';
 		$parent_base_dir = 'dyad';
 
