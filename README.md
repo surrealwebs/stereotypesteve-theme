@@ -1,10 +1,10 @@
-Child theme of [Dyad](https://wordpress.org/themes/dyad/) by Automattic
+Child theme of [Dyad](https://wordpress.org/themes/dyad/) by Automattic (they make [WordPress](http://www.wordpress.com))
 
-#Why?
+# Why?
 
 Adding additional functionality to a child theme is better than modifying a 3rd party theme. 
 
-##Changes
+## Changes
 
 Some (but not all) changes include:
 
