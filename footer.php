@@ -41,9 +41,9 @@
 				?>
 
 				<div class="site-info">
-					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'dyad' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'dyad' ), 'WordPress' ); ?></a>
+					<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'ssteve' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'ssteve' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'dyad' ), 'Dyad', '<a href="http://wordpress.com/themes/dyad/" rel="designer">WordPress.com</a>' ); ?>
+					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'ssteve' ), 'Dyad', '<a href="http://wordpress.com/themes/dyad/" rel="designer">WordPress.com</a>' ); ?>
 				</div><!-- .site-info -->
 			</div><!-- .footer-bottom-info -->
 

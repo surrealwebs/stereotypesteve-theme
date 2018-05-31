@@ -5,6 +5,8 @@ Description: Child theme of dyad for Stereotype Steve
 Author: <a href="http://www.stereotypesteve.com">Steve</a>
 Author URI: http://www.stereotypesteve.com
 Template: dyad
+Text Domain: ssteve
+Domain Path: /languages
 Version: 1
 */
 
@@ -36,7 +38,7 @@ Version: 1
 top-thread a,
 .top-thread li,
 .top-thread p {
-    color: #FF0000;
+    color: #ffffff;
 }
 
 .top-thread ul,
