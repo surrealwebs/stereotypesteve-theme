@@ -8,5 +8,5 @@ Adding additional functionality to a child theme is better than modifying a 3rd 
 
 Some (but not all) changes include:
 
-* Added menu location to the header for social media.
+* Added menu location to the header for social media (top-social).
 
